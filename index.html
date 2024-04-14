@@ -1,60 +1,767 @@
-<html>
-	<head>
-		<title>zakir blog</title>
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
-		<section class="section1">
-			<div class="div1">
-				<h1>Zakir Blog</h1>
-				<h5>this is demo website</h5>
-			</div>
-		</section>
-		<section class="section2">
-			<div class="div2">
-				<h2> Latst news</h2>
-			</div>
-			<div class="div2">
-				<h2> Latst news</h2>
-			</div>
-		</section>
-		
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZH Shop</title>
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md bg-primary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white fs-4" href="#">ZH Shop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="login.html" class="btn btn-outline-info"> Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Products</a>
+              </li>  <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item dropdown text-white">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" target="blank" href="" >Tope sels Product</a></li>
+                  <li><a class="dropdown-item"target="blank" href="">Electric Product</a></li>                                
+                  <li><a class="dropdown-item"target="blank" href="">Books</a>
+                  <li><a class="dropdown-item"target="blank" href=""> Food Item</a></li>                  
+                  <li><a class="dropdown-item"target="blank" href=""> Cook Foods</a></li>                  
+                  <li><a class="dropdown-item"target="blank" href=""> Clothes</a></li>
+                  <li><a class="dropdown-item"target="blank" href=""> Farniture</a></li>
 
-		<section>
-			<div class="div3">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/DjUfAnE_nh0?si=dzNe6Gc0o1pOFfmn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-		</div>
-		<div class="div3">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/gxe9DUzSF80?si=NNDUK4E52lJ14pBK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-		</div>
-		<div class="div3">
-			<iframe width="560"	 height="315" src="https://www.youtube.com/embed/fWetz3P4VsM?si=sOaUzqAk6ppg2iS_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-		</div>
-		</section>
-		<section>
-			<div class="div3">
-			<img src="imege/image.jpeg">
-		</div>
-		<div class="div3">
-			<img src="imege/image1.jpeg">
-		</div>
-		<div class="div3">
-			<img src="imege/image2.jpeg">
-		</div>
-		</section>
-		<div class="div5">
-				<h1>Contact us</h1>
-				<h5>any one can contact</h5>
-		</div>
-		<div class="div6">
-			<a  href="https://www.youtube.com/channel/UCN6sm8iHiPd0cnoUardDAnw?sub_confirmation=1"> Jomuna TV</a>
-			<a href="https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbGtoUDV3YTIwNmVwQk90ZXJVSDZKTTBSVHFLZ3xBQ3Jtc0tuQWluak0zcnhQUTNlemtFSU1acnZZc0FSVG84dk1FbVdaNkwtX1F3Vy1OOERUeE04ZUdlemdpWWs5aHFCSmxLRkRBWnE3RzN6NE91V0ZZcHprN2RRaW9hb2JhcTJDS19zUHBGLW1Zdmx2Y05aYXg4Zw&q=pbhattacharya.com"> pinaki</a>
-			<a href="https://www.youtube.com/redirect?event=channel_header&redir_token=QUFFLUhqbUpSVklObHpWZDVFZDEzZDRjbGRVU2RmVTBJQXxBQ3Jtc0ttcGZoY0VoSi03ZG50Ukx6SjE4aENlWWpGLTBjWElpNVB4WDZpN2gxdENTWEdiZEx5Z2pSZ1VzYndPeVhxSnp3OGNCNll0MW5MRExmZG5VcEFFanQ0N0V0MlYtc25CaWd0SzVDTzFwam96ZGhxTTR4cw&q=https%3A%2F%2Fwww.facebook.com%2Fsomoynews.tv>">Somoi TV</a>
-		</div>
+                </ul>
+              </li>
+             
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-info text-white" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+  <!-- navber end -->
+<br>
+<br>
+<br>
 
-		
+  <header class="container">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/carosel-image-3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/Carosel-image-4.jpg" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/Carosel-image-1.jpg" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/Carosel-image-2.png" class="d-block w-100 img-fluid" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</header>
+<br>
+<section class="container">
+    <div class="row"> 
+    <div class="col-md-5 col-sm-12 col-xs-12">
+<img src="image/model 1 .jpg" class="img-fluid" alt="">
+    </div>
+    <div class="col-md-7 col-sm-12 col-xs-12">
+    <div class="row">
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+
+            <div class="card border-0" >
+                <img src="image/t shart.jpg" height="220" width="250 class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">This is perfect for a man.</p>
+               <div class="d-flex justify-content-between" >
+                <span class="text-primary"> $10.09</span> 
+                <span class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                </span>
+               </div>
+                </div>
+              </div>
+             
+
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+
+            <div class="card border-0" >
+                <img src="image/pant1.jpg"  height="220" width="250class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">This is perfect for a man.</p>
+               <div class="d-flex justify-content-between" >
+                <span class="text-primary"> $12 .00</span> 
+                <span class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                </span>
+               </div>
+                </div>
+              </div>
+             
+
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+
+            <div class="card border-0" >
+                <img src="image/watch3.jpg"  height="220" width="250 class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">This is perfect for a man.</p>
+               <div class="d-flex justify-content-between" >
+                <span class="text-primary"> $200.20</span> 
+                <span class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                </span>
+               </div>
+                </div>
+              </div>
+             
+
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+
+            <div class="card border-0" >
+                <img src="image/cap1.jpg"  height="220" width="250 class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">This is perfect for a man.</p>
+               <div class="d-flex justify-content-between" >
+                <span class="text-primary"> $5 .40</span> 
+                <span class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                </span>
+               </div>
+                </div>
+              </div>
+             
+
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+
+            <div class="card border-0" >
+                <img src="image/balt4.jpg" height="220" width="250" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">This is perfect for a man.</p>
+               <div class="d-flex justify-content-between" >
+                <span class="text-primary"> $8 .00</span> 
+                <span class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                </span>
+               </div>
+                </div>
+              </div>
+             
+
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+
+            <div class="card border-0" >
+                <img src="image/bag1.jpg" height="220" width="250 class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">This is perfect for a man.</p>
+                <div class="d-flex justify-content-between" >
+                <span class="text-primary"> $22.00</span> 
+                <span class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                </span>
+               </div>
+                </div>
+              </div>
+            </div>  
+    </div>
+    </div>
+    </div>
+</section>
+<br>
 
 
-	</body>
+<section class="container">
+   <div class="text-center my-5">
+    <p class="h4"> Tranding product</p>
+   </div>
+   <div class="row">
+    <div class="col-md-3 col-sm-12 col-xs-12 shadow py-2">
+      <div class="d-flex justify-content-between">
+        <span class="bg-primary px-3 rounded text-white">sale</span>
+        <span class="text-primary"><i class="bi bi-code"></i> compare</span>
+      </div>
+      <img class="image-fluid" src="image/hadphone1.jpg" height="220" width="300"alt="">
+      <span class="text-secondary">Headphone</span>
+      <p class="h6">Warelass blotuoooh headphone</p>
+      <div class="d-flex justify-content-between">
+        <span class="text-primary">$60.00</span>
+        <span class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <i class="bi bi-star"></i>
+      </span>
+
+      </div>
+
+     <button class="btn btn-primary w-100 my-3"><i class="bi bi-cart-dash"></i> Add to Card</button>
+     <a class="btn btn-outline-primary w-100">Quick View</a> 
+
+    </div>
+    <div class="col-md-3  col-sm-12 col-xs-12 shadow py-2">
+      <div class="d-flex justify-content-between">
+        <span class="bg-primary px-3 rounded text-white">sale</span>
+        <span class="text-primary"><i class="bi bi-code"></i> compare</span>
+      </div>
+      <img class="image-fluid" src="image/laptop.jpg" height="220" width="300" alt="">
+      <span class="text-secondary">Laptop</span>
+      <p class="h6">Hp Laptop</p>
+      <div class="d-flex justify-content-between">
+        <span class="text-primary">$750.20</span>
+        <span class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <i class="bi bi-star"></i>
+      </span>
+      </div>
+     <button class="btn btn-primary w-100 my-3"><i class="bi bi-cart-dash"></i> Add to Card</button>
+     <a class="btn btn-outline-primary w-100">Quick View</a> 
+
+    </div>
+    <div class="col-md-3  col-sm-12 col-xs-12 shadow py-2">
+      <div class="d-flex justify-content-between">
+        <span class="bg-primary px-3 rounded text-white">sale</span>
+        <span class="text-primary"><i class="bi bi-code"></i> compare</span>
+      </div>
+      <img class="image-fluid" src="image/mobail1.jpg" height="220" width="300"alt="">
+      <span class="text-secondary">Mobail</span>
+      <p class="h6"> Realmi Mobail</p>
+      <div class="d-flex justify-content-between">
+        <span class="text-primary">$400.40</span>
+        <span class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <i class="bi bi-star"></i>
+      </span>
+      </div>
+     <button class="btn btn-primary w-100 my-3"><i class="bi bi-cart-dash"></i> Add to Card</button>
+     <a class="btn btn-outline-primary w-100">Quick View</a> 
+
+    </div>
+    <div class="col-md-3  col-sm-12 col-xs-12 shadow py-2">
+      <div class="d-flex justify-content-between">
+        <span class="bg-primary px-3 rounded text-white">sale</span>
+        <span class="text-primary"><i class="bi bi-code"></i> compare</span>
+      </div>
+      <img class="image-fluid" src="image/speaker2.jpg" height="220" width="300" alt="">
+      <span class="text-secondary">Speaker</span>
+      <p class="h6">Warelass blotuoooh Speaker</p>
+      <div class="d-flex justify-content-between">
+        <span class="text-primary">$23.55</span>
+        <span class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <i class="bi bi-star"></i>
+      </span>
+      </div>
+     <button class="btn btn-primary w-100 my-3"><i class="bi bi-cart-dash"></i> Add to Card</button>
+     <a class="btn btn-outline-primary w-100">Quick View</a> 
+
+    </div>
+
+
+
+    <div class="col-md-3  col-sm-12 col-xs-12 shadow py-2">
+      <div class="d-flex justify-content-between">
+        <span class="bg-primary px-3 rounded text-white">sale</span>
+        <span class="text-primary"><i class="bi bi-code"></i> compare</span>
+      </div>
+      <img class="image-fluid" src="image/Walet.jpg" height="220" width="300" alt="">
+      <span class="text-secondary">Speaker</span>
+      <p class="h6">Best WAlet For Men</p>
+      <div class="d-flex justify-content-between">
+        <span class="text-primary">$35.30</span>
+        <span class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <i class="bi bi-star"></i>
+      </span>
+      </div>
+     <button class="btn btn-primary w-100 my-3"><i class="bi bi-cart-dash"></i> Add to Card</button>
+     <a class="btn btn-outline-primary w-100">Quick View</a> 
+
+    </div>
+
+    <div class="col-md-3  col-sm-12 col-xs-12 shadow py-2">
+      <div class="d-flex justify-content-between">
+        <span class="bg-primary px-3 rounded text-white">sale</span>
+        <span class="text-primary"><i class="bi bi-code"></i> compare</span>
+      </div>
+      <img class="image-fluid" src="image/sunglasspng.png" height="220" width="300" alt="">
+      <span class="text-secondary">Speaker</span>
+      <p class="h6">Best Sunslass For Men</p>
+      <div class="d-flex justify-content-between">
+        <span class="text-primary">$15.30</span>
+        <span class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <i class="bi bi-star"></i>
+      </span>
+      </div>
+     <button class="btn btn-primary w-100 my-3"><i class="bi bi-cart-dash"></i> Add to Card</button>
+     <a class="btn btn-outline-primary w-100">Quick View</a> 
+
+    </div>
+
+    <div class="col-md-3  col-sm-12 col-xs-12 shadow py-2">
+      <div class="d-flex justify-content-between">
+        <span class="bg-primary px-3 rounded text-white">sale</span>
+        <span class="text-primary"><i class="bi bi-code"></i> compare</span>
+      </div>
+      <img class="image-fluid" src="image/airbards.jpg" height="220" width="300" alt="">
+      <span class="text-secondary">Speaker</span>
+      <p class="h6">Warelass blotuoooh airpods</p>
+      <div class="d-flex justify-content-between">
+        <span class="text-primary">$15.30</span>
+        <span class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <i class="bi bi-star"></i>
+      </span>
+      </div>
+     <button class="btn btn-primary w-100 my-3"><i class="bi bi-cart-dash"></i> Add to Card</button>
+     <a class="btn btn-outline-primary w-100">Quick View</a> 
+
+    </div>
+
+    <div class="col-md-3  col-sm-12 col-xs-12 shadow py-2">
+      <div class="d-flex justify-content-between">
+        <span class="bg-primary px-3 rounded text-white">sale</span>
+        <span class="text-primary"><i class="bi bi-code"></i> compare</span>
+      </div>
+      <img class="image-fluid" src="image/monitor.jpg" height="220" width="300" alt="">
+      <span class="text-secondary">Speaker</span>
+      <p class="h6"> best monitor </p>
+      <div class="d-flex justify-content-between">
+        <span class="text-primary">$250.32</span>
+        <span class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <i class="bi bi-star"></i>
+      </span>
+      </div>
+     <button class="btn btn-primary w-100 my-3"><i class="bi bi-cart-dash"></i> Add to Card</button>
+     <a class="btn btn-outline-primary w-100">Quick View</a> 
+
+    </div>
+   </div>
+</section>
+
+<section class="container my-5">
+<p class="h4 text-center"> Know Me More</p>
+<div class="row">
+
+
+<div class=" col-md-7 col-sm-12 col-xs-12 my-2 me-auto ">
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Our Service
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Our Rules
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Our History
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <button class="btn btn-outline-primary mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+   Click for More Details
+  </button>
+  
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">More Manu</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div>
+       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit iusto dolorem debitis in, vitae mollitia aspernatur ipsam exercitationem, maxime voluptas voluptatem perferendis illum nemo! Vitae quae, maxime at nulla culpa nam mollitia, pariatur nesciunt explicabo incidunt quo modi autem aliquam laborum? Asperiores eaque itaque adipisci repellendus, rerum quis, aliquam architecto maiores praesentium vel aliquid ex. Inventore porro beatae et perspiciatis, laborum aut quam maxime velit expedita accusamus, tenetur tempore. Blanditiis officia alias quae corrupti veniam cumque quibusdam soluta quidem et laudantium laboriosam praesentium, earum cum cupiditate explicabo molestiae vitae suscipit ipsum. Sint perferendis perspiciatis sapiente atque doloremque vel omnis quia beatae! Qui perferendis asperiores, expedita ea animi corrupti consequuntur optio libero doloremque, amet maxime in adipisci nihil soluta, consequatur quaerat voluptates ipsam magnam hic! Distinctio, labore reprehenderit. Possimus, quae, accusantium aliquam fugiat, hic dicta nihil consectetur at animi nesciunt dignissimos laborum error. Ex tenetur beatae non suscipit maxime tempora aspernatur dolorum veniam totam, laudantium quo inventore corrupti ab? Sit dignissimos cum veritatis, dolorem fugit iusto id maxime libero quas dolore non nostrum vero perferendis, magnam ea et.  
+      </div>
+      <div class="dropdown mt-3">
+        <button class="btn btn-primary w-100 dropdown-toggle" type="button" data-bs-toggle="dropdown">
+        Open Manu
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Home</a></li>
+          <li><a class="dropdown-item" href="#">Product</a></li>
+          <li><a class="dropdown-item" href="#">Shop</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="col-md-4 col-xs-12 col-sm-12">
+<img class="image-fluid" src="image/lady1.jpg" alt="">
+</div>
+</div>
+</section>
+
+<section class="container">
+<p class="h3 mb-5"> Shop By Brand</p>
+<div class="row bg-white">
+
+<div class="col-md-2 col-sm-4 col-xs-6 border border-1 py-5 text-center">
+  <img src="image/samsung.png" class="img-fluid" alt="">
+</div>
+
+<div class="col-md-2  col-sm-4 col-xs-6 border border-3 py-5 text-center">
+  <img src="image/tecno.png" class="img-fluid" alt="">
+</div>
+
+<div class="col-md-2  col-sm-4 col-xs-6 border border-3 py-5 text-center">
+  <img src="image/realme.png" class="img-fluid" alt="">
+</div>
+
+<div class="col-md-2  col-sm-4 col-xs-6 border border-3 py-5 text-center">
+  <img src="image/walton.jpg" class="img-fluid" alt="">
+</div>
+
+<div class="col-md-2  col-sm-4 col-xs-6 border border-3 py-5 text-center">
+  <img src="image/Tesla.png" class="img-fluid" alt="">
+</div>
+
+<div class="col-md-2  col-sm-4 col-xs-6 border border-3 py-5 text-center">
+  <img src="image/vivo.jpg" class="img-fluid" alt="">
+</div>
+
+<div class="col-md-2  col-sm-4 col-xs-6 border border-1 py-5 text-center">
+  <img src="image/oneplas2.jpg" class="img-fluid" alt="">
+</div>
+
+<div class="col-md-2  col-sm-4 col-xs-6 border border-1 py-5 text-center">
+  <img src="image/Huawei.png" class="img-fluid" alt="">
+</div>
+
+<div class="col-md-2  col-sm-4 col-xs-6 border border-1 py-5 text-center">
+  <img src="image/Zara.jpg" class="img-fluid" alt="">
+</div>
+
+<div class="col-md-2  col-sm-4 col-xs-6 border border-1 py-5 text-center">
+  <img src="image/microsoft.png" class="img-fluid" alt="">
+</div>
+
+<div class="col-md-2  col-sm-4 col-xs-6 border border-1 py-5 text-center">
+  <img src="image/apple.jpg" class="img-fluid" alt="">
+</div>
+
+<div class="col-md-2  col-sm-4 col-xs-6 border border-1 py-5 text-center">
+  <img src="image/Sunstar.png" class="img-fluid" alt="">
+</div>
+</div>
+</section>
+
+
+<section class="container">
+  <p class="h4  mb-2 mt-5" > Top Selling Products</p>
+  <div class="row justify-content-between">
+
+    <div class="col-md-5 col-sm-12 col-xs-12 shadow align-item-center d-flex justify-content-around bg-white py-5 px-5">
+      <div class="col-5 ">
+        <img class="img-fluid" src="image/mobail2.jpg" alt="">
+      </div>
+      <div class="col-md-5 col-sm-12 col-xs-12 ">
+        <p class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>  
+        </p>
+        <p>
+           This is a vivo phone Which is top selling phone
+        </p>
+        <p>
+          <span class="fw-bold me-3"> <s>$300.50</s></span>
+          <span class="text-primary fw-bold">$280.12</span>
+        </p>
+        <button class="btn btn-primary"> Add To card</button>
+      </div>
+    </div>
+
+    <div class="col-md-5 col-sm-12 col-xs-12 shadow align-item-center d-flex justify-content-around bg-white py-5 px-5">
+      <div class="col-5">
+        <img class="img-fluid" src="image/laptop1.jpg" alt="">
+      </div>
+      <div class="col-md-5 col-sm-12 col-xs-12">
+        <p class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>  
+        </p>
+        <p>
+           This is a Hp laptop Which is top selling Laptop
+        </p>
+        <p>
+          <span class="fw-bold me-3"> <s>$1120.00</s></span>
+          <span class="text-primary fw-bold">$1100.12</span>
+        </p>
+        <button class="btn btn-primary"> Add To card</button>
+      </div>
+    </div>
+ 
+    <div class="col-md-5 col-sm-12 col-xs-12 shadow align-item-center mt-5 d-flex justify-content-around bg-white py-5 px-5">
+      <div class="col-md-5 col-sm-12 col-xs-12">
+        <img class="img-fluid" src="image/speaker2.jpg" alt="">
+      </div>
+      <div class="col-5">
+        <p class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>  
+        </p>
+        <p>
+           This is a Saumi Speaker Which is top selling Speaker
+        </p>
+        <p>
+          <span class="fw-bold me-3"> <s>$11.00</s></span>
+          <span class="text-primary fw-bold">$10.12</span>
+        </p>
+        <button class="btn btn-primary"> Add To card</button>
+      </div>
+    </div>
+
+
+<div class="col-md-5 col-sm-12 col-xs-12 shadow align-item-center mt-5 d-flex justify-content-around bg-white py-5 px-5">
+      <div class="col-md-5 col-sm-12 col-xs-12">
+        <img class="img-fluid" src="image/fan1.jpg" alt="">
+      </div>
+      <div class="col-md-5 col-sm-12 col-xs-12">
+        <p class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>  
+        </p>
+        <p>
+           This is a Fan Which is top selling Fan
+        </p>
+        <p>
+          <span class="fw-bold me-3"> <s>$38.00</s></span>
+          <span class="text-primary fw-bold">$36.20</span>
+        </p>
+        <button class="btn btn-primary"> Add To card</button>
+      </div>
+    </div> 
+  </div>
+</section>
+
+<section class="container">
+    <a class="link" href="#" target="blank">
+      <div class="my-5" style="background-image:url( image/hadphon\ 1000x300\ px.jpg); height: 300px; background-repeat: no-repeat; background-position: center; background-size: cover;" >
+      </div>
+    </a> 
+</section>
+
+<section class="container">
+  <p class="h4 text-center"> Order Our Product</p>
+  <div class="row ">
+    <div class="col-md-6 bg-light">
+      <div class="d-flex justify-content-between">
+        <div class="col-5">
+          <label for="formname" class="form-label"> Name</label>
+          <input id="formname" class="form-control" type="text" placeholder="Your name">
+        </div>
+        <div class="col-5">
+          <label for="formemil" class="form-label"> Email Address</label>
+          <input id="formemil" class="form-control" type="text" placeholder="Email Address">
+        </div>
+      </div>
+      <div>
+        <div class="mt-3">
+          <label for="forAddress" class="form-label"> Shipping Address</label>
+          <input id="forAddress" class="form-control" type="text" placeholder="Street Address">
+          <input id="forAddress" class="form-control mt-3" type="text" placeholder="Street Address">
+        </div>
+        </div>
+
+      <div class="d-flex justify-content-between">
+        <input class="form-control mt-3 me-5 " type="text" placeholder=" City">
+
+        <input 
+         class="form-control mt-3  " type="text" placeholder="Region">
+        
+      </div>
+        <div class="d-flex justify-content-between">
+          <div class="col-5 me-5">
+            <input  class="form-control mt-3" type="number" placeholder="Zip Code">
+          </div>
+
+          <div class="col-5">
+            <select class="form-select mt-3 ">
+              <option selected> Your Country</option>
+              <option value="1"> Bangladesh</option>
+              <option value="2"> India</option>
+              <option value="3">pakisthan</option>
+              <option value="4"> Japan</option>
+              <option value="5"> chin </option>
+              <option value="6"> Rasia</option>
+              <option value="7">Napal </option>
+            </select>
+          </div>
+        </div>
+        <div class="mt-3">
+          <label class="form-label" for="Massage"> Write Any Message</label>
+          <textarea class="form-control"  id="Massage" cols="5" rows="5"></textarea>
+        </div>
+        <button class="btn btn-primary w-100 mt-3">  Order Confarm
+        </button>
+      </div>
+
+        <div class="col-md-6 border-3 bg-light ">
+          <img class="text-center" width="600" height="600"  src="image/contact1.jpg" alt="">
+        </div>
+    </div>
+  </div>
+</section>
+
+<footer class="container  mt-5 bg-light ">
+  <div class="h1 fw-bold text-center text-primary"> ZH Shop</div>
+  <hr class="border-2 border-primary">
+
+<div class="row">
+  <div class="col-md-3 col-sm-3 col-xs-6">
+    <p class="h5 mb-4" > About Us</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, mollitia!</p>
+  </div>
+
+  <div class="col-md-3 col-sm-3 col-xs-6">
+    <p class="h5 mb-4"> Feature</p>
+    <p><a href="#"  class="text-decoration-none"> About Us </a></p>
+    <p><a href="#"  class="text-decoration-none"> Best Products </a></p>
+    <p><a href="#"  class="text-decoration-none"> Terms & Condition </a></p>
+  </div>
+
+  <div class="col-md-3 col-sm-3 col-xs-6">
+    <p class="h5 mb-4"> Genarel Links</p>
+    <p><a href="#"  class="text-decoration-none"> Best Blog </a></p>
+    <p><a href="#"  class="text-decoration-none"> Best Taking Orders </a></p>
+    <p><a href="#"  class="text-decoration-none"> Become Seller </a></p>
+  </div>
+  <div class="col-md-3 col-sm-3 col-xs-6">
+    <p class="h5 mb-4"> Hepful</p>
+    <p><a href="#"  class="text-decoration-none"> Flase Sale</a></p>
+    <p><a href="#"  class="text-decoration-none"> FAQ </a></p>
+    <p><a href="#"  class="text-decoration-none"> Support </a></p>
+  </div>  
+</div>
+
+  <hr class="border-3 border-primary">
+
+  <div class=" text-center fw-bold">
+  &copy;  coppyright ।।  2024
+</div>
+</footer>
+<br>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>   
+</body>
 </html>
